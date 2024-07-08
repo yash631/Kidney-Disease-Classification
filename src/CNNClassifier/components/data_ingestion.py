@@ -1,9 +1,22 @@
 import os
 import zipfile
 import gdown
-from src.CNNClassifier import logger
-from src.CNNClassifier.utils.common import get_size
-from src.CNNClassifier.entity.config_entity import (DataIngestionConfig)
+
+try:
+  from src.CNNClassifier import logger
+except ImportError:
+  from CNNClassifier import logger
+
+try:
+  from src.CNNClassifier.utils.common import get_size
+except ImportError:
+  from CNNClassifier.utils.common import get_size
+
+try:
+  from src.CNNClassifier.entity.config_entity import (DataIngestionConfig)
+except ImportError:
+  from CNNClassifier.entity.config_entity import (DataIngestionConfig)
+
 
 
 
@@ -44,4 +57,3 @@ class DataIngestion:
         os.makedirs(unzip_path, exist_ok=True)
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
-

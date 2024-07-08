@@ -3,7 +3,12 @@ import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
 from pathlib import Path
-from src.CNNClassifier.entity.config_entity import PrepareBaseModelConfig
+
+try:
+  from src.CNNClassifier.entity.config_entity import PrepareBaseModelConfig
+except ImportError:
+  from CNNClassifier.entity.config_entity import PrepareBaseModelConfig
+
 
 
 class PrepareBaseModel:

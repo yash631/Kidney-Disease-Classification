@@ -1,6 +1,17 @@
-from src.CNNClassifier.config.configuration import ConfigurationManager
-from src.CNNClassifier.components.model_training import Training
-from src.CNNClassifier import logger
+try: 
+  from src.CNNClassifier.config.configuration import ConfigurationManager
+except ImportError:
+  from CNNClassifier.config.configuration import ConfigurationManager
+
+try:
+  from src.CNNClassifier.components.model_training import Training
+except ImportError:
+  from src.CNNClassifier.components.model_training import Training
+
+try: 
+  from src.CNNClassifier import logger
+except ImportError:
+  from src.CNNClassifier import logger
 
 
 

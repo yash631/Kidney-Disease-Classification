@@ -1,6 +1,19 @@
-from src.CNNClassifier.config.configuration import ConfigurationManager
-from src.CNNClassifier.components.prepare_base_model import PrepareBaseModel
-from src.CNNClassifier import logger
+try: 
+  from src.CNNClassifier.config.configuration import ConfigurationManager
+except ImportError: 
+  from CNNClassifier.config.configuration import ConfigurationManager
+
+try:
+  from src.CNNClassifier.components.prepare_base_model import PrepareBaseModel
+except ImportError:
+  from CNNClassifier.components.prepare_base_model import PrepareBaseModel
+   
+try:
+  from src.CNNClassifier import logger
+except ImportError:
+  from CNNClassifier import logger
+
+
 
 
 STAGE_NAME = "Prepare base model"

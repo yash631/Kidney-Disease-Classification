@@ -4,7 +4,13 @@ from zipfile import ZipFile
 import tensorflow as tf
 import time
 from pathlib import Path
-from src.CNNClassifier.entity.config_entity import TrainingConfig
+
+try:
+  from src.CNNClassifier.entity.config_entity import TrainingConfig
+except ImportError:
+  from CNNClassifier.entity.config_entity import TrainingConfig
+
+
 
 
 class Training:
