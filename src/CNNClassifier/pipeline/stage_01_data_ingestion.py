@@ -2,6 +2,7 @@ from src.CNNClassifier.config.configuration import ConfigurationManager
 from src.CNNClassifier.components.data_ingestion import DataIngestion
 from src.CNNClassifier import logger
 
+
 STAGE_NAME = "Data Ingestion stage"
 
 class DataIngestionTrainingPipeline:
