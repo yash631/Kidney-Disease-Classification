@@ -10,7 +10,6 @@ from src.CNNClassifier.entity.config_entity import TrainingConfig
 class Training:
     def __init__(self, config: TrainingConfig):
         self.config = config
-
     
     def get_base_model(self):
         self.model = tf.keras.models.load_model(
