@@ -6,12 +6,12 @@ except ImportError:
 try:
   from src.CNNClassifier.components.model_training import Training
 except ImportError:
-  from src.CNNClassifier.components.model_training import Training
+  from CNNClassifier.components.model_training import Training
 
 try: 
   from src.CNNClassifier import logger
 except ImportError:
-  from src.CNNClassifier import logger
+  from CNNClassifier import logger
 
 
 
