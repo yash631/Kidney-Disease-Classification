@@ -25,39 +25,55 @@
 
 ### Step 1. Clone the repository
 
-Command : git clone https://github.com/yash631/Kidney_Disease_Classification.git
+```bash
+git clone https://github.com/yash631/Kidney_Disease_Classification.git
+```
 
 
 ### STEP 2. Create a conda virtual environment 
 
-Command : conda create -n kidney python=3.8 -y
+```bash
+conda create -n kidney python=3.8 -y
+```
 
 
 ### STEP 3. Activate the environment
 
-Command : conda activate kidney
+```bash
+conda activate kidney
+```
 
 
 ### STEP 4. Install the requirements
 
-Command : pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 
 ### STEP 5. Run template.py to create files and folders 
 
-Command : python template.py
+```bash
+python template.py
+```
 
 
 ### STEP 6. Execute program after creating the model
 
  -->  For running main file 
- Command : python main.py
+```bash
+python main.py
+```
 
  -->  For running dvc.yaml file
- Command : dvc repro
+```bash
+dvc repro
+```
 
  -->  For running the app
- Command : python app.py
+```bash
+python app.py
+```
 
 
 
@@ -77,7 +93,7 @@ MLFLOW_TRACKING_PASSWORD=bacbf998668fae5fb780cd896be3ace34d52b928
 
 ### STEP 3. Set MLFLOW variables as Environment variables
 
-a) Git or bash commands
+a) For bash
 
 ```bash
 export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
@@ -87,7 +103,7 @@ export MLFLOW_TRACKING_USERNAME=entbappy
 export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 ```
 
-b) Powershell commands
+b) For Powershell
 
 ```Powershell
 $env:MLFLOW_TRACKING_URI="https://dagshub.com/yash631/Kidney_Disease_Classification.mlflow"
@@ -104,6 +120,8 @@ $env:MLFLOW_TRACKING_PASSWORD="bacbf998668fae5fb780cd896be3ace34d52b928"
 
 ### DVC commands
 
-1. dvc init
-2. dvc repro
-3. dvc dag
+```bash
+dvc init
+dvc repro
+dvc dag
+```
