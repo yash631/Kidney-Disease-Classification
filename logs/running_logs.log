@@ -1357,3 +1357,234 @@ x==========x]
 [2024-07-09 14:33:19,125: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-07-09 20:27:45,851: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:27:45,852: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:28:04,506: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:28:04] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:28:04,576: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:28:04] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:28:28,318: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:28:28] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:29:14,843: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:29:14] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:29:21,499: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:29:21] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:29:31,536: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:29:31] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:41:17,630: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:41:17,630: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:41:26,723: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:26] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:41:26,806: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:26] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:41:27,107: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-09 20:41:39,155: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:39] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:41:46,539: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:46] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:41:48,414: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:48] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:41:48,974: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:48] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:41:56,147: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000225DDA888B0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-07-09 20:41:56,151: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:56] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:41:58,072: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000225DC72D0D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-07-09 20:41:58,077: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:41:58] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:42:06,045: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:42:06] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:42:07,289: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:42:07] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:42:14,975: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:42:14] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:44:35,973: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:35] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:44:38,122: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:38] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:44:38,159: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:38] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:44:38,225: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:38] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:44:38,537: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:38] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:44:45,507: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:45] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:44:50,954: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:50] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:44:57,277: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:57] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:44:59,512: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:44:59] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:45:35,099: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:45:35,100: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:45:38,323: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:45:38] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:45:38,369: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:45:38] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:45:46,843: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:45:46] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 20:45:47,715: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:45:47] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:45:54,259: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:45:54] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 20:45:54,946: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:45:54] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:46:03,093: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:46:03] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 20:46:03,785: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:46:03] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:46:09,550: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:46:09] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 20:46:10,286: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:46:10] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 20:50:31,490: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:50:31,491: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:50:34,389: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:50:34] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:50:34,448: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:50:34] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:50:37,047: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:50:37] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:50:37,104: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:50:37] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:51:48,626: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:48] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:51:48,687: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:48] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:51:49,456: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:51:49,531: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:51:49,601: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:51:49,669: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:51:49,750: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:51:49,813: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:51:49,898: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:51:49,955: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:49] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:51:50,064: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:50] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:51:50,119: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:51:50] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:53:30,246: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:53:30] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:53:30,312: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:53:30] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:53:30,478: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:53:30] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:53:30,574: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:53:30] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:54:03,720: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:03] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:54:03,771: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:03] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:54:04,119: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:04] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:54:04,184: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:04] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:54:04,432: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:04] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:54:04,492: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:04] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:54:04,695: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:04] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:54:04,756: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:04] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:54:05,037: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:05] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:54:05,087: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:05] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:54:15,427: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:54:15,428: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:54:19,336: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:19] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:54:19,402: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:54:19] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:55:02,701: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:55:02,702: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:55:14,115: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:55:14,116: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:55:17,648: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:55:17] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:55:17,727: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:55:17] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:55:20,691: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:55:20] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:55:20,747: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:55:20] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:55:21,139: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:55:21] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:55:21,194: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:55:21] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:56:32,508: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:56:32,509: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:56:35,564: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:56:35] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:56:35,623: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:56:35] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:57:18,041: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:57:18,041: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:57:21,548: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:57:21] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:57:53,774: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:57:53] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:57:54,039: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:57:54] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:57:54,236: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:57:54] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:57:54,518: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:57:54] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:57:54,662: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:57:54] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:57:54,831: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:57:54] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:58:13,683: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:58:13,683: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:58:18,052: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:58:18] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:58:18,109: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:58:18] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:58:20,005: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:58:20] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:58:20,068: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:58:20] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:59:41,828: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 20:59:41,828: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 20:59:48,538: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:59:48] "GET / HTTP/1.1" 200 -]
+[2024-07-09 20:59:48,608: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:59:48] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 20:59:53,567: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:59:53] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-07-09 20:59:53,572: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 20:59:53] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:00:20,640: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:00:20] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-07-09 21:00:20,644: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:00:20] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:00:21,506: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:00:21] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-07-09 21:00:21,508: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:00:21] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:00:21,693: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:00:21] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-07-09 21:00:21,695: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:00:21] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:00:52,847: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 21:00:52,847: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 21:00:55,071: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:00:55] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:00:55,120: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:00:55] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:00:55,431: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:00:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-07-09 21:00:57,061: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:00:57] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:00:57,116: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:00:57] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:01:20,273: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 21:01:20,274: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 21:01:23,612: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:23] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:01:23,679: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:23] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:01:25,975: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:25] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:01:26,050: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:26] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:01:26,255: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:26] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:01:26,320: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:26] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:01:26,558: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:26] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:01:26,618: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:26] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:01:26,743: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:26] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:01:26,800: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:01:26] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:01:58,109: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 21:01:58,109: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 21:02:09,372: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:02:09] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:02:09,449: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:02:09] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:02:14,286: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:02:14] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-07-09 21:02:14,288: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:02:14] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:02:59,379: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 21:02:59,380: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 21:03:04,921: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:03:04] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:03:04,992: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:03:04] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:03:09,119: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:03:09] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:03:09,965: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:03:09] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 21:03:18,325: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:03:18] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:03:19,019: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:03:19] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 21:04:12,344: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 21:04:12,345: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 21:04:15,978: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:04:15] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:04:16,049: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:04:16] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:04:21,695: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:04:21] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:04:22,522: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:04:22] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 21:04:59,454: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 21:04:59,454: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 21:05:00,912: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:05:00] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:05:00,963: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:05:00] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:05:08,826: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:05:08] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:05:09,652: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:05:09] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 21:05:16,702: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:05:16] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:05:17,406: INFO: _internal: 127.0.0.1 - - [09/Jul/2024 21:05:17] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 21:06:33,448: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080]
+[2024-07-09 21:06:33,448: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-07-09 21:06:36,542: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:06:36] "GET / HTTP/1.1" 200 -]
+[2024-07-09 21:06:36,648: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:06:36] "[33mGET /KIDNEY_PHOTO.jpg HTTP/1.1[0m" 404 -]
+[2024-07-09 21:06:41,699: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:06:41] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:06:42,566: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:06:42] "POST /predict HTTP/1.1" 200 -]
+[2024-07-09 21:06:48,477: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:06:48] "[33mGET /path/to/loading.gif HTTP/1.1[0m" 404 -]
+[2024-07-09 21:06:49,172: INFO: _internal: 192.168.1.8 - - [09/Jul/2024 21:06:49] "POST /predict HTTP/1.1" 200 -]
