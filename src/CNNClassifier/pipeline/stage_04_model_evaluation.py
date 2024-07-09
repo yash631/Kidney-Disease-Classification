@@ -15,9 +15,7 @@ except ImportError:
 
 
 
-
 STAGE_NAME = "Evaluation stage"
-
 
 class EvaluationPipeline:
     def __init__(self):
